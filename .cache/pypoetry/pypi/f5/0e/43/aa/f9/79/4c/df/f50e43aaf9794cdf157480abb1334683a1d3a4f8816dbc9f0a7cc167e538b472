@@ -1,0 +1,1 @@
+9999999999{"name": "react", "version": "4.3.0", "summary": "Server-side rendering of React components with data from your Python system", "platform": "", "requires_dist": ["requests>=2.5.0", "optional-django==0.3.0"], "requires_python": null, "files": [], "_cache_version": "1.0.0"}

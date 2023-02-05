@@ -1,0 +1,151 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.sensors {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.info {
+  padding-left: 25px;
+  padding-right: 25px;
+  max-width: 200px;
+  width : 100%;
+  height: 180px;
+  word-break: break-word;
+  background-color: #8ECAFF;
+  border-radius: 20px;
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium';
+  font-weight: 100;
+}
+
+.heading{
+  color:#00437E;
+}
+
+.spacer {
+  width:15px;
+}
+
+.update {
+  background-color: #368FDD;
+  color: white;
+  height: 50px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: large;
+
+}
+
+.buttonWrapper{
+  padding-bottom: 14px;
+}
+
+.update:hover {
+  background-color: #0472D3;
+  color: white;
+}
+
+.inputBoxes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputBox {
+  width: 400px;
+  height: 40px;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: lightgray;
+  background-color: #62B6FF;
+  /* border: none;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06); */
+  border-radius: 15px;
+  color: white;
+}
+
+.inputBoxWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.formWrapper {
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.form {
+  /* display: flex;
+  flex-direction: row; */
+  align-items: center;
+  justify-content: center;
+}
+
+.background{
+  background-color: #77c0ff;
+  text-align: center;
+  min-width: 100%;
+  min-height: 100%;
+  /* background-position: cover; */
+}
+
+::placeholder {
+  color: white;
+  opacity: 1;
+  font-weight: 550;
+
+  /* Firefox */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
